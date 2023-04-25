@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VIPE Leilão</title>
+    <title>Veículos</title>
     <!-- ============== FAICON =============== -->
-    <link rel="shortcut icon" href="img/logovip.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/logovip.png" type="image/x-icon">
 
     <!-- ============== CSS =============== -->
-    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="../css/all.css">
 </head>
 <body>
     
@@ -18,33 +18,34 @@
         <div class="menu-1">
             <div class="container-menu">
                 <div class="logo">
-                    <img src="img/logovip.png" alt="">
+                    <img src="../img/logovip.png" alt="">
                 </div>
             </div>
             <div class="busca">
                 <input type="text" placeholder="Faça uma busca no site...">
             </div>
             <div class="login-cadastro">
-                <a class="login" href="login/login.php">Login</a>
-                <a class="cadastro" href="login/formulário.php">Cadastre-se</a>
+                <a class="login" href="#">Login</a>
+                <a class="cadastro" href="#">Cadastre-se</a>
             </div>
         </div>
 
         <div class="menu-2">
+            <img id="menu-hanburgue" src="icons/botao-de-menu-de-tres-linhas-horizontais.png" alt="">
             <div class="op">
-                <img src="icons/carro.png" alt="">
-                <a href="veiculos/index.html">Veículos</a>
+                <img src="../icons/carro.png" alt="">
+                <a href="#">Veículos</a>
             </div>
             <div class="op">
-                <img src="icons/motocicleta.png" alt="">
+                <img src="../icons/motocicleta.png" alt="">
                 <a href="#">Motocicletas</a>
             </div>
             <div class="op">
-                <img src="icons/caminhao-de-carga.png" alt="">
+                <img src="../icons/caminhao-de-carga.png" alt="">
                 <a href="#">Ultilitários</a>
             </div>
             <div class="op">
-                <img src="icons/equipamentos-e-maquinas.png" alt="">
+                <img src="../icons/equipamentos-e-maquinas.png" alt="">
                 <a href="#">Equipamentos e Máquinas</a>
             </div>
         </div>
@@ -52,11 +53,11 @@
         <div class="atendimento">
             <div class="numero">
                 <div class="tel">
-                    <img src="icons/whatsapp.png" alt="">
+                    <img src="../icons/whatsapp.png" alt="">
                     <a href="#">(00) 0000-0000</a>
                 </div>
                 <div class="tel">
-                    <img src="icons/telefone.png" alt="">
+                    <img src="../icons/telefone.png" alt="">
                     <a href="#">tel 999-9999</a>
                 </div>
             </div>
@@ -66,21 +67,24 @@
         </div>
     </header>
 
-    <!-- ============== BANNER =============== -->
+    <!-- ============== BANNER ===============
     <section class="banner">
         <div class="banner-1">
             <a href="#">
-                <img src="img/banner-1.jpg" alt="">
-                <img src="img/banner-2.jpg" alt="">
+                <img src="../img/banner-1.jpg" alt="">
+                <img src="../img/banner-2.jpg" alt="">
             </a>
         </div>
     </section>
+    -->
 
     <!-- ============== PRODUTOS =============== -->
     <section class="produtos">
+        <br class="pular">
+        <br class="pular">
 
-        <h1>PRÓXIMOS LEILÕES</h1>
-        <p>Venda Direta | Aberto para Lances | Arrematados</p>
+        <h1>LOTES</h1>
+        <p>Venda Direta | Aberto para Lances | Arrematados.</p>
 
         <div class="container">
 
@@ -180,25 +184,25 @@
             <div class="cards-copy">
 
                 <div class="card-copy-op">
-                    <img src="img-copy/seguranca.png" alt="segurança">
+                    <img src="../img-copy/seguranca.png" alt="segurança">
                     <h2>Segurança</h2>
                     <p>Seus dados são protegidos por um dos mais avançados sistemas de segurança da informação. Navegue e adquira produtos em nosso site sem preocupações!</p>
                 </div>
 
                 <div class="card-copy-op">
-                    <img src="img-copy/economia.png" alt="segurança">
+                    <img src="../img-copy/economia.png" alt="segurança">
                     <h2>Segurança</h2>
                     <p>Seus dados são protegidos por um dos mais avançados sistemas de segurança da informação. Navegue e adquira produtos em nosso site sem preocupações!</p>
                 </div>
 
                 <div class="card-copy-op">
-                    <img src="img-copy/variedade.png" alt="segurança">
+                    <img src="../img-copy/variedade.png" alt="segurança">
                     <h2>Segurança</h2>
                     <p>Seus dados são protegidos por um dos mais avançados sistemas de segurança da informação. Navegue e adquira produtos em nosso site sem preocupações!</p>
                 </div>
 
                 <div class="card-copy-op">
-                    <img src="img-copy/transparencia.png" alt="segurança">
+                    <img src="../img-copy/transparencia.png" alt="segurança">
                     <h2>Segurança</h2>
                     <p>Seus dados são protegidos por um dos mais avançados sistemas de segurança da informação. Navegue e adquira produtos em nosso site sem preocupações!</p>
                 </div>
@@ -234,12 +238,5 @@
       
 
     <!-- ============== JAVASCRIPT =============== -->
-    <script>
-        function setLoginCookie(username, password) {
-            // Definir cookie com informações de login
-            document.cookie = "username=" + username + ";password=" + password + ";expires=" + new Date(Date.now() + 86400e3).toUTCString() + ";path=/";
-        }
-
-    </script>
 </body>
 </html>
