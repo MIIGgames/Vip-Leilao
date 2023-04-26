@@ -4,6 +4,9 @@
 @import "copy.css";
 @import "footer.css";
 
+/* ========== PRDUTO PRINCIPAL =========== */
+@import "produto-main.css";
+
 
 
 * {
