@@ -1,0 +1,60 @@
+.copy {
+    background-color: #d7d6d64b;
+}
+
+.vipe-leilao {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.vipe-leilao h1 {
+    text-align: center;
+}
+.vipe-leilao p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cards-copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card-copy-op {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-copy-op img {
+    width: 90px;
+    height: 90px;
+}
+.card-copy-op h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+.card-copy-op p {
+    width: 90%;
+    height: auto;
+}
+
+
+@media screen and (max-width:768px) {
+    .cards-copy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .card-copy-op {
+        margin-top: 30px;
+    }
+    
+}
