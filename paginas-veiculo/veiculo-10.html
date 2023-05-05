@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veículos - 10 </title>
+    <!-- ============== FAICON =============== -->
+    <link rel="shortcut icon" href="../img/logovip.png" type="image/x-icon">
+
+    <!-- ============== CSS =============== -->
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    
+    <!-- ============== MENU =============== -->
+    <header class="menu">
+        <div class="menu-1">
+            <div class="container-menu">
+                <div class="logo">
+                    <a href="../index.html"><img src="../img/logovip.png" alt=""></a>
+                </div>
+            </div>
+            <div class="busca">
+                <input type="text" placeholder="Faça uma busca no site...">
+            </div>
+            <div class="login-cadastro">
+                <a class="login" href="#">Login</a>
+                <a class="cadastro" href="#">Cadastre-se</a>
+            </div>
+        </div>
+
+        <div class="menu-2">
+            <img id="menu-hanburgue" src="icons/botao-de-menu-de-tres-linhas-horizontais.png" alt="">
+            <div class="op">
+                <img src="../icons/carro.png" alt="">
+                <a href="../veiculos/index.html">Veículos</a>
+            </div>
+            <div class="op">
+                <img src="../icons/motocicleta.png" alt="">
+                <a href="../motocicletas/index.html">Motocicletas</a>
+            </div>
+            <div class="op">
+                <img src="../icons/caminhao-de-carga.png" alt="">
+                <a href="../ultilitarios/index.html">Ultilitários</a>
+            </div>
+            <div class="op">
+                <img src="../icons/equipamentos-e-maquinas.png" alt="">
+                <a href="../equipamento-maquina/index.html">Equipamentos e Máquinas</a>
+            </div>
+        </div>
+
+        <div class="atendimento">
+            <div class="numero">
+                <div class="tel">
+                    <img src="../icons/whatsapp.png" alt="">
+                    <a href="#">0800 000 1157</a>
+                </div>
+                <div class="tel">
+                    <img src="../icons/telefone.png" alt="">
+                    <a href="#">0800 855 0080</a>
+                </div>
+            </div>
+            <div class="aten">
+                <a href="#">Atendimento de Segunda a Séxta das 8hrs ás 17:30hrs.</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ============== Produto-Container =============== -->
+    <section class="produto-container">
+        <div class="desc-produto-main">
+            <h1>Leilão de Veículos</h1>
+            <hr>
+            <div class="paragrafo-produto-main">
+                <p><span class="cor">Abertura para Lances: </span> 28/04/2023 às 12;00h</p>
+                <p><span class="cor">Fechamento a partir de: </span> 09/05/2023 às 12;00h</p>
+                <p><span class="cor">Modalidade: </span>On line e presencial</p>
+                <p><span class="cor">Local do Leilão: </span> R Alberto klemtz 441 - Curitiba/ PR 80330-380</p>
+            </div>
+        </div>
+
+        <div class="produto-main">
+
+            <div class="card-produto">
+
+                <h1>LOTE 10 - CHEVROLET CLASSIC Cor: VERMELHA</h1>
+                <div class="desc-lote">
+                    <p>EXTRAJUDICIAL</p>
+                    <p>ON LINE E PRESENCIAL</p>
+                    <p>PRAÇA ÚNICA</p>
+                </div>
+
+                <div class="visu">
+                    <a class="visu-p" href="#">90 Visualização e</a>
+                    <a class="visu-p" href="#">51 Lances</a>
+                </div>
+
+                <!-- ========= PRODUTO PRINCIPAL ==========-->
+                <div class="container-produto-p">
+
+                    <div class="product-gallery">
+                        <img src="img-10/v-5.jpg" alt="">
+                        <img src="img-10/v-4.jpg" alt="">
+                        <div class="product-gallery">
+                            <img class="img-p" src="img-10/v-2.jpg" alt="">
+                            <img class="img-p" src="img-10/v-3.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="lances">
+                        <h2>ABERTO PARA LANCES</h2>
+                        <p>Participe do leilão</P>
+                            <form action="https://formsubmit.co/marangeren@gmail.com" method="POST" >
+                            <div class="quebra">
+                                <input id="sem-nada" type="text" name="Veiculo: LOTE 10 - CHEVROLET CLASSIC Cor: VERMELHA">
+
+                                <input type="text" name="nome" required placeholder="Nome">
+
+                                <input type="cpf" name="cpf" required placeholder="CPF">
+
+                                <input type="date" name="data_nascimento" id="data_nascimento" required
+                                 placeholder="Data de nascimento">
+
+                                <input type="email" name="email" required placeholder="Email">
+                            </div>
+                            <div class="quebra">
+
+                                <input type="tel" name="telefone" required placeholder="Telefone para contato">
+
+                                <input type="text" name="cidade" id="cidade" class="inputUser" required placeholder="Cidade">
+
+                                <input type="text" name="estado" id="estado" class="inputUser" required placeholder="Estado">
+
+                                <input type="text" name="endereco" id="endereco" class="inputUser" required placeholder="Endereço">
+                            </div>
+
+                            <div class="lance-inicial">
+                                <br>
+                                <label for="number">Seu lance Acima do valor apresentado no lote</label>
+                                <div class="input-wrapper">
+                                    <span class="currency">R$</span>
+                                    <input type="number" name="lance" required placeholder="Lance" id="lance-input">
+                                </div>
+                                <button type="submit" id="enviar-lance" disabled>ENVIAR</button>
+                                <p id="lance-mensagem" class="error-message">O valor do seu lance deve ser acima do valor apresentado no lote.</p>
+                            </div>
+                            
+                        </form>
+                    </div>
+            
+                </div>
+
+                <div class="desc-info">
+                    <div class="info">
+                        <h2>Informações</h2>
+                        <p><span>Lance Inicial:</span> R$5.900,00</p>
+                        <br>
+                        <p>Veículo: CHEVROLET CLASSIC Cor: VERMELHA Valor Fipe: Não informado Ano: 2009 / 2010 Combustível: Flex KM: Não Informado Localização do lote: Av. Engenheiro Emiliano Macieira, Km 7, 301, Maracanã, São Luís - MA Situação de Entrada: Não funcionando RECUPERADO FINANCIAMENTO (CONSERVADO) Final Placa: 3 / MA
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- ============== INFO PAGAMENTO =============== -->
+    <section class="pagamento">
+        <h2>Pagamento:</h2>
+        <p>As informações pertinentes ao recebimento do lote serão enviadas por e-mail.
+            Estaremos direcionando a retirada das notas de venda provisoriamente após o envio dos documentos para a emissão da nota de venda com cópia do comprovante de pagamento até às 18hs do dia útil do leilão, por meio do nosso WhatsApp: (41) 3798-2998 ou e-mail: financeiro@vipleiloes.org</p>
+        
+        <p class="cor">** ATENÇÃO * Após o envio é importante entrar em contato para confirmar o recebimento de seus documentos e o envio de suas notas no telefone (41) 3798-2998. **</p>
+
+        <br>
+        <h2>Retirada</h2>
+        <p class="cor">** ATENÇÃO - ENTREGA DE VEÍCULOS AGENDADA ** </p>
+        <p>Após a confirmação do pagamento e emissão da nota de venda, você receberá um e-mail para que seja feito o agendamento da retirada/entrega do veículo e nota de venda.
+            O prazo de retirada do bem será de 5 (cinco) dias úteis contados a partir da data de realização do Leilão.
+            Ao arrematante que deixar de observar as condições de retirada, será cobrada multa diária de R$ 20,00 (Moto), R$ 50,00 (Veículos), R$ 80,00 (Caminhões) e R$ 50,00 (Bens), até o máximo de 30 dias, quando perderá o direito ao bem arrematado, sendo o mesmo vendido para a satisfação do débito.</p>
+    </section>
+
+    <!-- ============== COPYWRITE =============== -->
+    <section class="copy">
+        <div class="vipe-leilao">
+            <h1>Por que comprar no Vip Leilões?</h1>
+            <p>Junte-se às mais de 500 mil de pessoas que usam o Vip Leilões para compra de ativos.</p>
+
+            <div class="cards-copy">
+
+                <div class="card-copy-op">
+                    <img src="../img-copy/seguranca.png" alt="segurança">
+                    <h2>Segurança</h2>
+                    <p>Seus dados são protegidos por um dos mais avançados sistemas de segurança da informação. Navegue e adquira produtos em nosso site sem preocupações!</p>
+                </div>
+
+                <div class="card-copy-op">
+                    <img src="../img-copy/economia.png" alt="segurança">
+                    <h2>Economia</h2>
+                    <p>Além da procedência dos ativos à venda, os valores são abaixo do mercado. Um veículo seminovo, por exemplo, pode ter economia de até 40% abaixo da Tabela Fipe.</p>
+                </div>
+
+                <div class="card-copy-op">
+                    <img src="../img-copy/variedade.png" alt="segurança">
+                    <h2>Variedade</h2>
+                    <p>Centenas de produtos de diferentes categorias para seu negócio ou sua casa!</p>
+                </div>
+
+                <div class="card-copy-op">
+                    <img src="../img-copy/transparencia.png" alt="segurança">
+                    <h2>Transparência</h2>
+                    <p>O processo de disputa pelos produtos não tem interferência humana, ou seja, todos os participantes têm igualdade de condições no lance ou na proposta.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============== FOOTER =============== -->
+    <footer>
+
+        <div class="coluna">
+          <h4>VIPE LEILÂO</h4>
+          <p>Informações adicionais sobre a empresa.</p>
+        </div>
+
+        <div class="coluna">
+          <h4>Contato</h4>
+          <p>Telefone: (11) 1234-5678</p>
+          <p>Email: contato@empresa.com.br</p>
+        </div>
+
+        <div class="coluna">
+          <h4>Redes Sociais</h4>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+
+      </footer>
+      
+
+    <!-- ============== JAVASCRIPT =============== -->
+    <script>
+        // Obter o valor atual do lote
+        const valorLote = 5900; // substituir por um valor real
+
+        // Selecionar o input de lance, o botão de enviar e a mensagem de erro
+        const lanceInput = document.getElementById("lance-input");
+        const enviarLanceBtn = document.getElementById("enviar-lance");
+        const lanceMensagem = document.getElementById("lance-mensagem");
+
+        // Desabilitar o botão de enviar inicialmente
+        enviarLanceBtn.disabled = true;
+
+        // Adicionar um ouvinte de evento ao input de lance
+        lanceInput.addEventListener("input", function() {
+            // Obter o valor inserido pelo usuário
+            const valorLance = parseInt(lanceInput.value);
+
+            // Verificar se o valor inserido pelo usuário é maior que o valor do lote
+            if (valorLance > valorLote) {
+                // Se for maior, habilitar o botão de enviar e ocultar a mensagem de erro
+                enviarLanceBtn.disabled = false;
+                lanceMensagem.style.display = "none";
+            } else {
+                // Se não for maior, desabilitar o botão de enviar e mostrar a mensagem de erro
+                enviarLanceBtn.disabled = true;
+                lanceMensagem.style.display = "block";
+            }
+        });
+
+        // Adicionar um ouvinte de evento ao botão de enviar
+        enviarLanceBtn.addEventListener("click", function() {
+            // Enviar a requisição
+            const formData = new FormData();
+            formData.append("lance", parseInt(lanceInput.value));
+
+            fetch("url-do-seu-endpoint", {
+                method: "POST",
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(error => console.error(error));
+        });
+
+
+    </script>
+</body>
+</html>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equipamentos e Máquinas</title>
+    <title>VIPE Leilão</title>
     <!-- ============== FAICON =============== -->
     <link rel="shortcut icon" href="../img/logovip.png" type="image/x-icon">
 
@@ -28,13 +28,12 @@
             </div>
 
             <div class="login-cadastro">
-                <a class="cadastro" href="../form/index.html">Cadastre-se</a>
+                <a class="cadastro" href="#">Cadastre-se</a>
             </div>
 
         </div>
 
         <div class="menu-2">
-            <img id="menu-hanburgue" src="icons/botao-de-menu-de-tres-linhas-horizontais.png" alt="">
             <div class="op">
                 <img src="../icons/carro.png" alt="">
                 <a href="../veiculos/index.html">Veículos</a>
@@ -70,61 +69,69 @@
         </div>
     </header>
 
-    <!-- ============== BANNER ===============
-    <section class="banner">
-        <div class="banner-1">
-            <a href="#">
-                <img src="../img/banner-1.jpg" alt="">
-                <img src="../img/banner-2.jpg" alt="">
-            </a>
-        </div>
-    </section>
-    -->
+    <!-- ================ Formulario =================== -->
 
-    <!-- ============== PRODUTOS =============== -->
-    <section class="produtos">
-        <br class="pular">
-        <br class="pular">
+    <div class="lances">
+        <h2>ABERTO PARA LANCES</h2>
+        <p>Participe do leilão</P>
+            <form action="https://formsubmit.co/marangeren@gmail.com" method="POST" >
 
-        <h1>LOTES</h1>
-        <p>Venda Direta | Aberto para Lances | Arrematados.</p>
+            <div class="quebra">
 
-        <div class="container">
+                <input type="text" name="nome" required placeholder="Nome">
 
-            <!-- ============== PRODUTO-1 =============== -->
-            <div class="card">
-                <img src="../paginas-em/img-1/v-1.jpg" alt="Product 1">
-                <h2>LOTE 01 - VALTRA A 750 2020</h2>
-                <p>DATA DO LEILÃO 08/05/2023 | HORA: 10:00</p>
-                <P>LANCE INICIAL: R$ 34.900,00</P>
-                <a href="../paginas-em/em-1.html"><button>ABERTO PARA LANCES</button></a>
+                <input type="cpf" name="cpf" required placeholder="CPF">
+
+                <input type="date" name="data_nascimento" id="data_nascimento" required
+                 placeholder="Data de nascimento">
+
+                <input type="email" name="email" required placeholder="Email">
             </div>
 
-              <!-- ============== PRODUTO-2 =============== -->
-              <div class="card">
-                  <img src="../paginas-em/img-2/v-1.jpg" alt="Product 1">
-                  <h2>LOTE 02 - Trator New Holland T9.435</h2>
-                  <p>DATA DO LEILÃO 08/05/2023 | HORA: 10:00</p>
-                  <P>LANCE INICIAL: R$139.100,00</P>
-                  <a href="../paginas-em/em-2.html">
-                    <button>ABERTO PARA LANCES</button>
-                </a>
-              </div>
+            <div class="quebra">
 
-              <!-- ============== PRODUTO-3 =============== -->
-              <div class="card">
-                  <img src="../paginas-em/img-3/v-1.jpg" alt="Product 1">
-                  <h2>LOTE 03 - Fiatallis 80.3 2002</h2>
-                  <p>DATA DO LEILÃO 09/05/2023 | HORA: 10:00</p>
-                  <P>LANCE INICIAL: R$ 44.500,00</P>
-                  <a href="../paginas-em/em-3.html">
-                    <button>ABERTO PARA LANCES</button>
-                </a>
-              </div>
+                <input type="tel" name="telefone" required placeholder="Telefone para contato">
 
-          </div>
-          
-    </section>
+                <input type="text" name="cidade" id="cidade" class="inputUser" required placeholder="Cidade">
+
+                <input type="text" name="estado" id="estado" class="inputUser" required placeholder="Estado">
+
+                <input type="text" name="endereco" id="endereco" class="inputUser" required placeholder="Endereço">
+
+                <button type="submit" id="enviar-lance">ENVIAR</button>
+            </div>
+
+            <!--
+            <div class="lance-inicial">
+                <br>
+                <label for="number">Seu lance Acima do valor apresentado no lote</label>
+                <div class="input-wrapper">
+                    <span class="currency">R$</span>
+                    <input type="number" name="lance" required placeholder="Lance" id="lance-input">
+                </div>
+                <p id="lance-mensagem" class="error-message">O valor do seu lance deve ser acima do valor apresentado no lote.</p>
+            </div>
+            -->
+            <style>
+                form {
+                    width: 100%; display: flex; gap: 2rem; justify-content: center;
+                }
+                @media screen and (max-width:768px) {
+                    form {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2rem;
+                        margin: 1px;
+                        width: 100%;
+                    }
+                    .quebra {
+                        gap: 1rem;
+                    }
+                }
+            </style>
+
+        </form>
+        <br>
 
     <!-- ============== COPYWRITE =============== -->
     <section class="copy">
@@ -162,6 +169,13 @@
         </div>
     </section>
 
+
+    <section class="ssl">
+        <br>
+        <img style="width: 300px; display: block; margin: 0 auto;; " src="img/leilaoseguro.png" alt="">
+        <br>
+    </section>
+
     <!-- ============== FOOTER =============== -->
     <footer>
 
@@ -186,7 +200,7 @@
         </div>
 
       </footer>
-      
+
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
       <a href="https://api.whatsapp.com/send?phone=5511958787369&text=Ol%C3%A1%20Quero%20Falar%20Sobre%20Leilão%20de%20Veiculos%20Recuperados" style="position:fixed;
       width:60px;
@@ -199,23 +213,6 @@
       z-index:1000;" target="_blank">
       <i style="margin-top:16px" class="fa fa-whatsapp"></i>
       </a>
-
-      <a class="cadastre-se" href="../form/index.html">Cadastre-se</a>
-      <style>
-        .cadastre-se {
-            position: fixed;
-            width: 130px;
-            height: 60px;
-            bottom: 110px;
-            right: 40px;
-            background-color: #888;
-            border-radius: 10px;
-            padding: 20px 20px;
-            color: #FFF;
-            text-align: center;
-        }
-      </style>
-
-    <!-- ============== JAVASCRIPT =============== -->
+      
 </body>
 </html>
